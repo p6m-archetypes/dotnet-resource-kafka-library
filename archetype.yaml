@@ -1,0 +1,14 @@
+---
+description: ".NET Kafka Messaging — Confluent.Kafka producer module for ASP.NET Core services"
+summary: >
+  Generates a Resources/Messaging.cs with MessagingExtensions using Confluent.Kafka
+  IProducer. Consumed as a library by .NET service archetypes.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "dotnet", "messaging", "kafka", "confluent"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
