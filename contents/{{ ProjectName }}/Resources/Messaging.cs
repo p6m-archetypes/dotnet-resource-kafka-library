@@ -1,6 +1,6 @@
 using Confluent.Kafka;
 
-namespace {{ PrefixName }}{{ SuffixName }}.Resources;
+namespace {{ ProjectName }}.Resources;
 
 public static class MessagingExtensions
 {
